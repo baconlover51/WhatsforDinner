@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatsforDinner</string>
+    <string name="title_activity_new_dish">NewDishActivity</string>
+
+    <string-array name="names">
+        <item>Egg</item>
+        <item>Milk</item>
+        <item>Salt</item>
+        <item>Tomato</item>
+        <item>Rice</item>
+        <item>Chicken</item>
+        <item>Olive oil</item>
+        <item>Potatoes</item>
+        <item>Custom</item>
+    </string-array>
+</resources>
