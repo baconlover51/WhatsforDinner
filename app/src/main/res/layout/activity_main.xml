@@ -24,60 +24,60 @@
         android:id="@+id/mealButton"
         android:layout_width="0dp"
         android:layout_height="90dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginBottom="0dp"
         app:layout_constraintBottom_toTopOf="@+id/mealView"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="@+id/groceriesButton"
-        app:layout_constraintLeft_toLeftOf="@+id/groceriesButton"
         app:layout_constraintHorizontal_bias="0.0"
-        android:layout_marginBottom="0dp" />
+        app:layout_constraintLeft_toLeftOf="@+id/groceriesButton"
+        app:layout_constraintRight_toRightOf="@+id/groceriesButton"
+        app:srcCompat="@drawable/rsz_mealicon"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
     <ImageButton
         android:id="@+id/recipeButton"
         android:layout_width="100dp"
         android:layout_height="0dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/mealButton"
         android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/mealButton"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/mealButton"
-        android:layout_marginRight="34dp"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rsz_recipeimage"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <ImageButton
         android:id="@+id/groceriesButton"
         android:layout_width="100dp"
         android:layout_height="0dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginLeft="38dp"
         android:layout_marginStart="30dp"
         app:layout_constraintBottom_toBottomOf="@+id/newdishButton"
-        tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="@+id/newdishButton"
-        android:layout_marginLeft="30dp"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rsz_groceryicon"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <ImageButton
         android:id="@+id/newdishButton"
         android:layout_width="0dp"
         android:layout_height="90dp"
-        android:src="@drawable/plusbuttonicon"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="@+id/recipeButton"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="77dp"
+        android:src="@drawable/rsz_plusbuttonicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="@+id/recipeButton"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintRight_toRightOf="@+id/recipeButton"
+        app:srcCompat="@drawable/rsz_plusbuttonicon"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
     <TextView
         android:id="@+id/recipeView"
@@ -119,18 +119,18 @@
 
     <ImageButton
         android:id="@+id/infoButton"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/mealButton"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
+        android:layout_width="243dp"
+        android:layout_height="138dp"
         android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/mealButton"
         app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.715"
+        app:srcCompat="@drawable/rsz_whatsfordinnericon"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_editor_absoluteY="-13dp" />
 </android.support.constraint.ConstraintLayout>

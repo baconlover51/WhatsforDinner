@@ -117,7 +117,7 @@
         android:id="@+id/Addbutton"
         android:layout_width="70dp"
         android:layout_height="57dp"
-        app:srcCompat="@drawable/plusbuttonicon"
+        app:srcCompat="@drawable/rsz_plusbuttonicon"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -126,34 +126,6 @@
         android:layout_marginBottom="437dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.887" />
-
-    <TextView
-        android:id="@+id/loadView"
-        android:layout_width="89dp"
-        android:layout_height="42dp"
-        android:layout_marginBottom="267dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.948"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
-
-    <Button
-        android:id="@+id/loadButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Load"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.881" />
 
     <Spinner
         android:id="@+id/ingredient1"
